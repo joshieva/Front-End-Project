@@ -11,25 +11,26 @@ table {
   }
   body{
       font-family:'Times New Roman', Times, serif ;
+    
   }
 
   .container{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding: 10px;
+    padding: 30px;
     margin: auto;
     width: 50%;
     border: 1px;
     border-radius: 10px;
+    background-color: #00b4d8;
+
   }
   .container div{
     display: flex;
     flex-direction: column;
     gap: 10px;
-    border: 2px;
-    border-radius: 20px;
-    border-color: greenyellow;
+    
   }
 
   .container div input{
@@ -40,5 +41,8 @@ table {
   .container  button{
     height: 25px;
     width: 180px;
+  }
+  h1,label,th,table,tr{
+    color: whitesmoke;
   }
  
